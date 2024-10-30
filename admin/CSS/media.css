@@ -1,0 +1,59 @@
+.container{
+    /* border: 1px solid red; */
+    width: 80% !important;
+    margin-top: 50px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-add{
+    border: 2px solid rgb(4, 154, 4);
+    color: green;
+    background-color: #fff;
+    width: 100px;
+    height: 40px;
+    font-size: 19px;
+    border-radius: 5px;
+}
+.img-tbl{
+    margin-top: 15px;
+}
+.img-tbl,tr,td,th{
+    padding: 15px !important;
+}
+thead{
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+}
+i:hover{
+    cursor: pointer;
+}
+
+
+.upalod-box{
+    padding: 50px !important;
+}
+
+.upload-box-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px !important;
+}
+.btn-cancle{
+    border: 2px solid red;
+    color: red;
+    background-color: #fff;
+    width: 80px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+input[type=file]{
+    border: 1px solid  #909497;
+}   
+a{
+    text-decoration: none;
+} 

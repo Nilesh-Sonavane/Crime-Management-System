@@ -1,0 +1,39 @@
+.crime-box{
+    margin-top: 30px;
+    padding: 30px;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    border-radius: 10px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    transition: all 2s;
+}
+.container{
+    margin-bottom: 60px;
+}
+.form-control{
+    height: 5vh !important;
+}
+#addCrimeBtn{
+    padding: 8px !important;
+    margin-right: 10px !important;
+    margin-top: 10px !important;
+}
+#btn-add, #btn-update, #btn-hide{
+    padding: 8px !important;
+    width: 80px !important;
+}
+.fa{
+    margin-right: 5px;
+}
+.fa-edit{
+    color: green;
+    cursor: pointer;
+}
+.fa-times-circle{
+    color: rgb(236, 57, 57);
+    margin-left: 20px;
+    cursor: pointer;
+}
+table,td,th,tr{
+    padding: 15px !important;
+}

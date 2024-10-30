@@ -1,0 +1,143 @@
+.container1 {
+  margin: 50px 20px 50px 20px;
+  border: 5px solid #ccc;
+  padding: 0px 5px 50px 5px;
+  border-radius: 10px;
+}
+
+.page-title {
+  margin: 25px 0px;
+}
+
+h2 {
+  font-size: 1.875em;
+  font-weight: bold !important;
+  color: #444;
+  text-align: center;
+}
+
+.row {
+  margin-bottom: 40px !important;
+}
+
+input[type="password"],
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+  padding: 6px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 3px;
+  resize: none;
+  border: 2px solid #aaa;
+  margin: 10px 0;
+  cursor: text;
+}
+
+input[type="radio"] {
+  width: 18px;
+  height: 18px;
+}
+
+label {
+  color: #444;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.progress {
+  height: 3px !important;
+
+}
+
+.progress-bar-danger {
+  background-color: #e90f10 !important;
+}
+
+.progress-bar-warning {
+  background-color: #ffad00 !important;
+}
+
+.progress-bar-success {
+  background-color: #02b502 !important;
+}
+
+.password-msg {
+  text-align: right;
+}
+
+.week {
+  color: #e90f10;
+}
+
+.good {
+  color: #ffad00;
+}
+
+.strong {
+  color: #02b502;
+}
+
+
+.tooltiptext {
+  visibility: hidden;
+  width: 25%;
+  background-color: #555;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 5px 25px;
+  position: absolute;
+  z-index: 1;
+  margin-top: 55px;
+  left: 10%;
+  margin-left: -60px;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.tooltiptext ol {
+  margin: auto;
+}
+
+.tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #555 transparent;
+}
+
+.Error {
+  color: red;
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .tooltiptext {
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1100px) {
+
+  .tooltiptext {
+    width: 40%;
+
+  }
+}

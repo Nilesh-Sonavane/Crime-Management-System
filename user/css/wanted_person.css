@@ -1,0 +1,41 @@
+
+
+.card {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+    padding-bottom: 1rem;
+    z-index: -10;
+    
+  }
+  
+  .card > :last-child {
+    margin-bottom: 0;
+  }
+  
+  .card h3 {
+    margin-top: 1rem;
+    font-size: 1.50rem;
+    font-weight: 800;
+    text-align: center;
+    background-color: #807c7c;
+    color: #fff;
+    margin: 0px;
+    padding: 10px;
+    margin-bottom: 10px !important;
+  }
+  
+  img {
+    border-radius: 0.5rem 0.5rem 0 0;
+    width: 100%;
+  }
+  .card p{
+    display: inline;
+  }
+  img ~ * {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .bold{
+    font-weight: 700;
+  }

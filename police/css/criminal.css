@@ -1,0 +1,116 @@
+
+body{
+
+    overflow: scroll;
+}
+.criminal_box{
+    margin-top: 30px;
+    padding: 30px;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    border-radius: 10px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    transition: all 2s;
+    overflow: scroll;
+}
+.container{
+    margin-bottom: 60px;
+}
+
+.row{
+    margin-bottom: 10px;
+}
+
+input[type="password"],
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="time"],
+input[type="file"],
+select,progress,
+textarea {
+    padding: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 3px;
+    resize: none;
+    border: 2px solid #aaa;
+    margin: 10px 0;
+    cursor: text;
+}
+input[type="radio"]{
+    width: 18px;
+    height: 18px;
+}
+#addStationBtn{
+    padding: 8px !important;
+    margin-right: 10px !important;
+    margin-top: 10px !important;
+}
+#btn-add, #btn-update, #btn-hide{
+    padding: 8px !important;
+    width: 80px !important;
+}
+.fa-edit{
+    color: green;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.fa-times-circle{
+    color: rgb(236, 57, 57);
+    margin-left: 20px;
+    cursor: pointer;
+}
+.Error,.require{
+    color:red;
+
+}
+
+/* modal css start  */
+
+#modal{
+    background: rgba(0,0,0,0.7);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    display: none;
+    overflow: scroll;
+}
+#modal-form h2{
+    text-align: center;
+    margin: 0 0 15px;
+    padding: 10px;
+    border-bottom: 1px solid #575757;
+    background: #82a0df;
+    border-radius: 4px;
+
+}
+#modal-form{
+    background: #fff;
+    width: 50%;
+    position: relative;
+    top: 10%;
+     left: calc(50% - 25%);
+    padding: 15px;
+    border-radius: 4px;
+}
+@media screen and (max-width: 700px){
+    
+    #modal-form{
+        width: 80%;
+        left: calc(50% - 40%);
+    }
+
+    .row{
+        margin-bottom: 20px;
+    }
+}
+
+.note{
+    font-size: 13px !important;
+
+}

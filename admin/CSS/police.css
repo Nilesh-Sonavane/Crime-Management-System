@@ -1,0 +1,17 @@
+.police_table,.user_table{
+    /* border: 1px solid red; */
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.fa-edit{
+    color: green;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.fa-circle-xmark{
+    color: rgb(236, 57, 57);
+    margin-left: 20px;
+    cursor: pointer;
+}

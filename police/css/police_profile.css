@@ -1,0 +1,32 @@
+.profile_box{
+    margin-top: 30px;
+    padding: 30px;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    border-radius: 10px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    transition: all 2s;
+}
+
+.form-control, .form-select{
+    height: 5vh !important;
+    font-size: 15px !important;
+}
+.row{
+    margin-bottom: 20px;
+}
+#btn-edit{
+    padding: 8px !important;
+    width: 80px !important;
+    float: right !important;
+}
+#btn-update{
+    padding: 8px !important;
+    width: 80px !important;
+    float: right !important;
+}
+#btn-cancle{
+    padding: 8px !important;
+    width: 80px !important;
+    float: left !important;
+}

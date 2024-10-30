@@ -1,0 +1,54 @@
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px !important;
+}
+
+.card {
+    /* border: 2px solid red; */
+    font-weight: 400 !important;
+    margin: 20px;
+    /* height: 150px !important;
+    width: 25% !important;
+    border-radius: 10px; */
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+
+    
+}
+.backgroung-round{
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.18);
+}
+
+.bg-shadow-skyblue {
+    background: linear-gradient(45deg, #fc6767, #eb0990) !important;
+    box-shadow: 0 6px 20px 0 rgba(236, 4, 113, 0.5) !important;
+}
+.bg-shadow-blue {
+    background: linear-gradient(45deg, #0288d1, #26c6da) !important;
+    -webkit-box-shadow: 0 6px 20px 0 rgba(38, 198, 218, 0.5) !important;
+    box-shadow: 0 6px 20px 0 rgba(38, 198, 218, 0.5) !important;
+}
+.bg-shadow-red {
+    background: linear-gradient(45deg, #ff5252, #f48fb1) !important;
+    -webkit-box-shadow: 0 6px 20px 0 rgba(244, 143, 177, 0.5) !important;
+    box-shadow: 0 6px 20px 0 rgba(244, 143, 177, 0.5) !important;
+}
+.bg-shadow-orenge {
+    background: linear-gradient(45deg, #ff6f00, #ffca28) !important;
+    -webkit-box-shadow: 0 6px 20px 0 rgba(255, 202, 40, 0.5) !important;
+    box-shadow: 0 6px 20px 0 rgba(255, 202, 40, 0.5) !important;
+}
+.bg-shadow-green {
+    background: linear-gradient(45deg, #43a047, #1de9b6) !important;
+    -webkit-box-shadow: 0 6px 20px 0 rgba(29, 233, 182, 0.5) !important;
+    box-shadow: 0 6px 20px 0 rgba(29, 233, 182, 0.5) !important;
+  }
