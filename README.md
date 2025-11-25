@@ -126,15 +126,15 @@ All information is derived from the official project documentation (see project 
 
 ### User Homepage
 
-![User Dashboard](https://via.placeholder.com/1000x500?text=User+Dashboard)
+![User Dashboard](https://i.postimg.cc/PqKt9tQM/home.jpg)
 
 ### Police Dashboard
 
-![Police Dashboard](https://via.placeholder.com/1000x500?text=Police+Dashboard)
+![Police Dashboard](https://i.postimg.cc/GpzcVcxy/police.jpg)
 
 ### Admin Dashboard
 
-![Admin Dashboard](https://via.placeholder.com/1000x500?text=Admin+Dashboard)
+![Admin Dashboard](https://i.postimg.cc/q7QkSkx8/Admin.jpg)
 
 ---
 
